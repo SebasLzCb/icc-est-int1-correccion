@@ -3,7 +3,7 @@ package Views;
 import java.awt.*;
 import java.awt.event.*;
 
-public class VentanaCalificaciones extends Frame implements ActionListener {
+public class VentanaCalificacion extends Frame implements ActionListener {
 
     private TextField tfCedula;
     private TextField tfNombre;
@@ -15,7 +15,7 @@ public class VentanaCalificaciones extends Frame implements ActionListener {
     private Button btnGuardar;
     private Button btnCancelar;
 
-    public VentanaCalificaciones() {
+    public VentanaCalificacion() {
         setSize(400, 250);
         setLayout(new BorderLayout());
         setLocationRelativeTo(null);
@@ -97,7 +97,7 @@ public class VentanaCalificaciones extends Frame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        new VentanaCalificaciones();
+        new VentanaCalificacion();
     }
 }
 
